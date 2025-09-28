@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Caveat+Brush&family=Comfortaa:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=M+PLUS+Rounded+1c:wght@300;400;700;800;900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.screen{
+    background-color: #AFD9FD;
+}
+.headline{
+    font-size: xx-large;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}
+.Lines{
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+input:focus{
+    outline: none;
+}
+.Login_btn{
+    transition: all ease-in 0.25s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Login_btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.PasswordBox{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+.EmailBox{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
