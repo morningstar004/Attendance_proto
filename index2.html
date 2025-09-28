@@ -64,8 +64,8 @@
     .battery-inner{height:100%; width:60%; background:#0b1220; display:block}
 
     .content{
-      flex:1; display:flex;  align-items:center; justify-content:center; position:relative;
-      padding:20px; box-sizing:border-box;
+      flex:1;  align-items:center; position:relative;
+      padding:0.5px; box-sizing:border-box;
     }
 
     .placeholder{
@@ -101,7 +101,7 @@
     .phone.dark .placeholder{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); color:#94a3b8; border-color: rgba(255,255,255,0.04)}
 
   </style>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="main2.css">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
@@ -122,8 +122,19 @@
             </div>
           </div>
 
-          <div class="content flex-col" role="main">
-            
+          <div class="content" role="main">
+            <div class="NavBar flex flex-row gap-[48px]">
+              <svg class="mt-[7px]" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 44 56">
+                <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+              </svg>
+              <div class="Title mt-[6px] font-bold text-">
+                New GKV App
+              </div> 
+              <img class="pl-2" src="icons8-calendar-32.png" alt="">
+            </div>
+            <div class="Seperation bg-[#E5E5E5] h-[0.7px] w-[102%]">
+
+            </div>
           </div>
 
           <div class="home-indicator">
